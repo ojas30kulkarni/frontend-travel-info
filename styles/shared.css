@@ -4,18 +4,73 @@
  }
 
  #page-logo a{
-    padding: 10px;
-    font-family: "Oleo Script",sans-serif;
-    color: rgb(245, 243, 160);
-    font-size: 50px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgb(0,0,0);
+   padding: 10px;
+   font-family: "Oleo Script",sans-serif;
+   color: rgb(245, 243, 160);
+   font-size: 50px;
+   text-decoration: none;
+   text-transform: uppercase;
+   text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+
+ header{
+    padding: 15px 60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
  }
 
- ul{
-    list-style: none;
-    margin: 0;
+ header ul{
+   list-style: none;
+   text-decoration: none;
+   display: flex;
+   width: 250px;
+   margin:10px;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+header li{
+  margin-left: 20px;
+
+}
+
+.nav-menu{
+    color: rgb(255, 251, 0);
     text-decoration: none;
-    padding: 0;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
  }
+
+ .nav-menu:hover{
+    background-color: rgb(255, 251, 0);
+    color:rgb(77,77,77);
+    border-radius: 6px;
+ }
+
+ footer{
+    background: linear-gradient(70deg,rgb(24,24,24),rgb(25,29,29));  
+ }
+
+ footer ul{
+   display: flex;
+   margin: 0;
+   padding:36px 0;
+   justify-content: center;
+ }
+
+ footer li{
+   width: 70px;
+   height: 70px;
+   margin: 0 50px;  
+ }
+
+ footer img{
+   width: 100%;
+   height: 100%;
+ }
+
